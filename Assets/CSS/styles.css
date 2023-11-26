@@ -167,11 +167,13 @@ a {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-top: 96px;
+    margin-top: 70px;
 }
 
 .clients .images a {
-    padding: 0 42px;
+    display: flex;
+    align-items: center;
+    padding: 32px 42px;
     border-radius: 12px;
     background: #FFF;
 }
