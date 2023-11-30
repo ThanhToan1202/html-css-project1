@@ -52,6 +52,10 @@ a {
 }
 
 /* ====== Header ====== */
+.fixed-header {
+    background: #e6f0ff;
+}
+
 .header {
     background: #e6f0ff;
     height: 100vh;
@@ -61,7 +65,8 @@ a {
 .navbar {
     display: flex;
     align-items: center;
-    padding-top: 38px;
+    /* padding-top: 38px; */
+    padding: 12px 0;
 }
 
 .navbar ul {
